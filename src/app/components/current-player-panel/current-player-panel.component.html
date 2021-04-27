@@ -1,0 +1,14 @@
+<div class="d-flex justify-content-center m-3">
+  <ng-template [ngIf]="isFirstCurrentPlayer">
+    <mat-icon class="align-self-center ttt-cross">close</mat-icon>
+    <span class="align-self-center text-uppercase ttt-cross m-1">Player 1</span>
+  </ng-template>
+
+  <ng-template [ngIf]="isSecondCurrentPlayer">
+    <mat-icon class="align-self-center ttt-zero">radio_button_unchecked</mat-icon>
+    <span class="align-self-center text-uppercase ttt-zero m-1">Player 2</span>
+  </ng-template>
+</div>
+
+
+
